@@ -1,7 +1,8 @@
 name: Spell Check
 
 on: [push, pull_request]
-
+permissions:
+  contents: read
 jobs:
   spell-check:
     runs-on: ubuntu-latest

@@ -8,8 +8,9 @@
     "go": "1.23"
   },
   "extends": [
-    "config:recommended",
-    "helpers:pinGitHubActionDigests"
+    "config:best-practices",
+    "helpers:pinGitHubActionDigests",
+    "helpers:pinGitHubActionDigestsToSemver"
   ],
   "schedule": [
     "on tuesday"
